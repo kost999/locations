@@ -1,0 +1,7 @@
+App\Domain\ValueObjects\Point:
+  exclusion_policy: all
+  properties:
+    lat:
+      type: float
+    lon:
+      type: float

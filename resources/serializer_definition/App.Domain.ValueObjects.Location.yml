@@ -1,0 +1,8 @@
+App\Domain\ValueObjects\Location:
+  exclusion_policy: all
+  properties:
+    name:
+      type: string
+    point:
+      serialized_name: coordinates
+      type: App\Domain\ValueObjects\Point

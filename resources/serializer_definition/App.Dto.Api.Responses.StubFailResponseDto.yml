@@ -1,0 +1,7 @@
+App\Dto\Api\Responses\StubFailResponseDto:
+  exclusion_policy: all
+  properties:
+    success:
+      type: boolean
+    data:
+      type: App\Dto\Api\Responses\StubFailDataDto

@@ -1,0 +1,7 @@
+App\Dto\Api\Responses\StubFailDataDto:
+  exclusion_policy: all
+  properties:
+    message:
+      type: string
+    code:
+      type: integer

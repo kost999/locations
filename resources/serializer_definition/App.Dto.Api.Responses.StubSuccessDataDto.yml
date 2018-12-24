@@ -1,0 +1,5 @@
+App\Dto\Api\Responses\StubSuccessDataDto:
+  exclusion_policy: all
+  properties:
+    locations:
+      type: array<App\Domain\ValueObjects\Location>

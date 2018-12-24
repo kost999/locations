@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        \App\Providers\SerializerServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -175,6 +176,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        \App\Providers\LocationsGetterProvider::class,
     ],
 
     /*
